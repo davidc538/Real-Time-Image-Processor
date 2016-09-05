@@ -1,0 +1,56 @@
+﻿Build started 9/5/2016 12:47:08 AM.
+     1>Project "C:\Users\David\Desktop\real-time-image-processor\Template-3P98-2010\Template-3P98-2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Template-3P98-2010.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IGL /IFreeImage /I"glew-1.10.0\include" /Iopencv\build\include /Iopencv\sources\include\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt file_handling.c gl_misc.c rtip_functions.c shaders.c
+         shaders.c
+     1>c:\users\david\desktop\real-time-image-processor\template-3p98-2010\shaders.c(14): warning C4020: 'loadShader' : too many actual parameters
+     1>c:\users\david\desktop\real-time-image-processor\template-3p98-2010\shaders.c(15): warning C4020: 'loadShader' : too many actual parameters
+     1>c:\users\david\desktop\real-time-image-processor\template-3p98-2010\shaders.c(28): warning C4029: declared formal parameter list different from definition
+         rtip_functions.c
+         gl_misc.c
+         file_handling.c
+     1>c:\users\david\desktop\real-time-image-processor\template-3p98-2010\file_handling.c(75): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\david\desktop\real-time-image-processor\template-3p98-2010\file_handling.c(96): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IGL /IFreeImage /I"glew-1.10.0\include" /Iopencv\build\include /Iopencv\sources\include\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp shader_instructions.cpp
+         shader_instructions.cpp
+     1>c:\users\david\desktop\real-time-image-processor\template-3p98-2010\shader_instructions.cpp(62): warning C4244: 'argument' : conversion from 'float' to 'GLint', possible loss of data
+         main.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Template-3P98-2010.res" Template-3P98-2010.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Template-3P98-2010.exe.embed.manifest.res" Debug\Template-3P98-2010_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\David\Desktop\real-time-image-processor\Debug\Template-3P98-2010.exe" /INCREMENTAL /NOLOGO /LIBPATH:GL /LIBPATH:FreeImage /LIBPATH:"glew-1.10.0\lib\Release\Win32" /LIBPATH:opencv\build\x86\vc11\lib /LIBPATH:opencv\build\x86\vc11\staticlib glew32.lib opengl32.lib freeglut.lib FreeImage.lib opencv_core2413d.lib opencv_imgproc2413d.lib opencv_highgui2413d.lib opencv_ml2413d.lib opencv_video2413d.lib opencv_features2d2413d.lib opencv_calib3d2413d.lib opencv_objdetect2413d.lib opencv_contrib2413d.lib opencv_legacy2413d.lib opencv_flann2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Template-3P98-2010.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\David\Desktop\real-time-image-processor\Debug\Template-3P98-2010.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\David\Desktop\real-time-image-processor\Debug\Template-3P98-2010.lib" /MACHINE:X86 "Debug\Template-3P98-2010.res"
+         "Debug\Template-3P98-2010.exe.embed.manifest.res"
+         Debug\file_handling.obj
+         Debug\gl_misc.obj
+         Debug\main.obj
+         Debug\rtip_functions.obj
+         Debug\shaders.obj
+         Debug\shader_instructions.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Template-3P98-2010.exe.embed.manifest" /manifest "Debug\Template-3P98-2010.exe.intermediate.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Template-3P98-2010.vcxproj -> C:\Users\David\Desktop\real-time-image-processor\Debug\Template-3P98-2010.exe
+       PostBuildEvent:
+         copy "C:\Users\David\Desktop\real-time-image-processor\Template-3P98-2010\GL\freeglut.dll" "C:\Users\David\Desktop\real-time-image-processor\Debug\"
+         copy "C:\Users\David\Desktop\real-time-image-processor\Template-3P98-2010\FreeImage\freeimaged.dll" "C:\Users\David\Desktop\real-time-image-processor\Debug\"
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\Template-3P98-2010.unsuccessfulbuild".
+         Touching "Debug\Template-3P98-2010.lastbuildstate".
+     1>Done Building Project "C:\Users\David\Desktop\real-time-image-processor\Template-3P98-2010\Template-3P98-2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.27

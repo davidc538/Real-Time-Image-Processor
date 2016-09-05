@@ -1,0 +1,26 @@
+﻿Build started 9/5/2016 12:45:10 AM.
+     1>Project "C:\Users\David\Desktop\Project\RTIP-cam\Template-3P98-2010\Template-3P98-2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Template-3P98-2010.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         Template-3P98-2010.vcxproj -> C:\Users\David\Desktop\Project\RTIP-cam\Release\Template-3P98-2010.exe
+       PostBuildEvent:
+         copy "C:\Users\David\Desktop\Project\RTIP-cam\Template-3P98-2010\GL\freeglut.dll" "C:\Users\David\Desktop\Project\RTIP-cam\Release\"
+         copy "C:\Users\David\Desktop\Project\RTIP-cam\Template-3P98-2010\FreeImage\freeimaged.dll" "C:\Users\David\Desktop\Project\RTIP-cam\Release\"
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Release\Template-3P98-2010.unsuccessfulbuild".
+         Touching "Release\Template-3P98-2010.lastbuildstate".
+     1>Done Building Project "C:\Users\David\Desktop\Project\RTIP-cam\Template-3P98-2010\Template-3P98-2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04
